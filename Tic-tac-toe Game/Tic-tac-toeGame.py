@@ -109,7 +109,6 @@ def check_win():
         
     if tie == True:
         game_ended()
-    print(tie)
             
 def handle_click(row, col):
     global current, board
